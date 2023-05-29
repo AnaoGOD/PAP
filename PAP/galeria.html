@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\menu.css" />
+    <link rel="stylesheet" href="css\home.css" />
+    <link rel="stylesheet" href="css\galeria.css" />
+    <link rel="stylesheet" href="css\font.css" />
+    <link rel="preload" href="css\VCROSDMono.ttf" as="font" type="font/ttf" />
+
+    <script src="javascript/galeria.js"></script>
+  </head>
+
+  <body>
+    <nav class="navMenu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Cronologia</a>
+          <ul class="dropdown">
+            <li><a href="#">1980</a></li>
+            <li><a href="#">1990</a></li>
+            <li><a href="#">2000</a></li>
+            <li><a href="#">2010</a></li>
+            <li><a href="#">2020</a></li>
+            <div class="dot2"><img src="imgs\ativo.png" /></div>
+          </ul>
+        </li>
+        <li><a href="#">Forúm</a></li>
+        <li><a href="#">Sobre</a></li>
+        <div class="dot"><img src="imgs\ativo.png" /></div>
+      </ul>
+    </nav>
+
+    <div class="separaMenu"></div>
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="imgs/gansoNadador.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="imgs/gokuDripCareca.PNG" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="img_mountains_wide.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="img_lights_wide.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="img_nature_wide.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="img_snow_wide.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="imgs/gansoNadador.png"
+            style="width: 100%"
+            onclick="currentSlide(1)"
+            alt="fodase"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="imgs/gokuDripCareca.PNG"
+            style="width: 100%"
+            onclick="currentSlide(2)"
+            alt="Cinque Terre"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img_mountains.jpg"
+            style="width: 100%"
+            onclick="currentSlide(3)"
+            alt="Mountains and fjords"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img_lights.jpg"
+            style="width: 100%"
+            onclick="currentSlide(4)"
+            alt="Northern Lights"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img_nature.jpg"
+            style="width: 100%"
+            onclick="currentSlide(5)"
+            alt="Nature and sunrise"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="img_snow.jpg"
+            style="width: 100%"
+            onclick="currentSlide(6)"
+            alt="Snowy Mountains"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="separa"></div>
+    <p>teste</p>
+    <p>teste</p>
+    <p>teste</p>
+    <p>teste</p>
+  </body>
+</html>
