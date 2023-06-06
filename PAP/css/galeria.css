@@ -2,6 +2,13 @@ img {
   vertical-align: middle;
 }
 
+iframe {
+  border: 0;
+  vertical-align: middle;
+  width: 100%;
+  height: 500px;
+}
+
 /* Posiciona a imagem no container*/
 .container {
   margin-top: 300px;
