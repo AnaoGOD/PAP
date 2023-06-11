@@ -28,6 +28,22 @@ h2{
   width: 50%;
 }
 
+
+ .coluna {
+  float: left;
+  width: 20%
+} 
+
+.coluna img {
+
+}
+
+.linha::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .separaMenu {
   border-top: 8px solid #101a30;
   border-radius: 5px;
