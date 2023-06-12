@@ -7,14 +7,14 @@ body {
   background: #101a30;
 }
 
-h1{
+h1 {
   font-family: "Dosis-extrabold";
   font-weight: bold;
   color: #f1f1f1;
   text-align: center;
 }
 
-h2{
+h2 {
   font-family: "Dosis";
   font-weight: bold;
   color: #f1f1f1;
@@ -28,14 +28,22 @@ h2{
   width: 50%;
 }
 
-
- .coluna {
-  float: left;
-  width: 20%
-} 
+.coluna {
+  width: 50%;
+  margin: 0 auto;
+}
 
 .coluna img {
-
+  display: inline;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px -10px 10px;
+}
+#img1 {
+  margin-top: 10px;
+}
+#img2 {
+  margin-bottom: 10px;
 }
 
 .linha::after {
@@ -71,4 +79,3 @@ h2{
   margin-top: 30px;
   box-shadow: 0px 20px 18px #131313;
 }
-

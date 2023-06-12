@@ -43,39 +43,33 @@
     <div class="linha">
       <div class="coluna">
         <img
-          style="width: 98%"
+          id="img1"
+          style="width: 100%"
+          src="imgs\pacman.jpg"
+          onmouseover="zindex1(this)"
+          onmouseout="zindex2(this)"
+        />
+        <img
+          style="width: 100%; transform: translateY(-200px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
         />
-      </div>
-      <div class="coluna">
         <img
-          style="width: 98%"
+          style="width: 100%; transform: translateY(-400px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
         />
-      </div>
-      <div class="coluna">
         <img
-          style="width: 98%"
+          style="width: 100%; transform: translateY(-600px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
         />
-      </div>
-      <div class="coluna">
         <img
-          style="width: 98%"
-          src="imgs\marioworld.png"
-          onmouseover="zindex1(this)"
-          onmouseout="zindex2(this)"
-        />
-      </div>
-      <div class="coluna">
-        <img
-          style="width: 98%"
+          id="img2"
+          style="width: 100%; transform: translateY(-800px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
@@ -87,11 +81,20 @@
 
     <script>
       function zindex1(x) {
-        x.style.border = "1px solid red";
+        x.style.boxShadow = "0px 0px 0px";
+        x.style.margin = "0px auto";
+        x.style.marginBottom = "210px";
+        document.getElementById("img1").style.marginTop = "10px";
+        document.getElementById("img2").style.marginBottom = "10px";
       }
 
       function zindex2(x) {
-        x.style.border = "0px solid red";
+        x.style.boxShadow = "0px -10px 10px";
+        x.style.width = "100%";
+        x.style.position = "relative";
+        x.style.margin = "0 auto";
+        document.getElementById("img1").style.marginTop = "10px";
+        document.getElementById("img2").style.marginBottom = "10px";
       }
     </script>
   </body>
