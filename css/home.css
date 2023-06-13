@@ -17,6 +17,7 @@ h1 {
 h2 {
   font-family: "Dosis";
   font-weight: bold;
+  font-size: 200%;
   color: #f1f1f1;
   text-align: center;
 }
@@ -31,6 +32,7 @@ h2 {
 .coluna {
   width: 50%;
   margin: 0 auto;
+  margin-bottom: -1000px;
 }
 
 .coluna img {
@@ -63,7 +65,7 @@ h2 {
     rgba(16, 26, 48, 1) 4%
   );
   display: block;
-  height: 200px;
+  height: 100px;
   margin-top: 30px;
   box-shadow: 0px -20px 18px #131313;
 }
@@ -75,7 +77,7 @@ h2 {
     rgba(16, 26, 48, 1) 4%
   );
   display: block;
-  height: 200px;
+  height: 100px;
   margin-top: 30px;
   box-shadow: 0px 20px 18px #131313;
 }
