@@ -40,12 +40,12 @@ ul.dropdown {
 ul.dropdown li {
   list-style: none;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   display: inline-block;
   position: relative;
   text-decoration: none;
   text-align: center;
-  height: 40px;
+  height: 30px;
 }
 
 .navMenu a:hover {
@@ -120,16 +120,16 @@ ul.dropdown li {
 }
 
 .dropdown li:nth-child(1):hover ~ .dot2 {
-  -webkit-transform: translate(84.5px, -275px);
-  transform: translate(84.5px, -275px);
+  -webkit-transform: translate(84.5px, -175px);
+  transform: translate(84.5px, -175px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .dropdown li:nth-child(2):hover ~ .dot2 {
-  -webkit-transform: translate(84.5px, -215px);
-  transform: translate(84.5px, -215px);
+  -webkit-transform: translate(84.5px, -135px);
+  transform: translate(84.5px, -135px);
 
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -137,14 +137,6 @@ ul.dropdown li {
 }
 
 .dropdown li:nth-child(3):hover ~ .dot2 {
-  -webkit-transform: translate(84.5px, -155px);
-  transform: translate(84.5px, -155px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.dropdown li:nth-child(4):hover ~ .dot2 {
   -webkit-transform: translate(84.5px, -95px);
   transform: translate(84.5px, -95px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -152,9 +144,17 @@ ul.dropdown li {
   opacity: 1;
 }
 
+.dropdown li:nth-child(4):hover ~ .dot2 {
+  -webkit-transform: translate(84.5px, -55px);
+  transform: translate(84.5px, -55px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
 .dropdown li:nth-child(5):hover ~ .dot2 {
-  -webkit-transform: translate(84.5px, -35px);
-  transform: translate(84.5px, -35px);
+  -webkit-transform: translate(84.5px, -15px);
+  transform: translate(84.5px, -15px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;

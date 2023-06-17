@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #101a30;
+}
+
+h1 {
+  font-family: "Dosis-extrabold";
+  font-weight: bold;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Dosis";
+  font-weight: bold;
+  font-size: 200%;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Dosis";
+  font-weight: normal;
+  font-size: 130%;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.centro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.separaMenu {
+  border-top: 8px solid #101a30;
+  border-radius: 5px;
+}
+.separa {
+  background: linear-gradient(
+    180deg,
+    rgb(14, 13, 211) 0%,
+    rgba(16, 26, 48, 1) 6%
+  );
+  display: block;
+  height: 80px;
+  margin-top: 30px;
+  box-shadow: 0px -20px 18px #131313;
+}
+
+.separa2 {
+  background: linear-gradient(
+    0deg,
+    rgb(14, 13, 211) 0%,
+    rgba(16, 26, 48, 1) 6%
+  );
+  display: block;
+  height: 100px;
+  margin-top: 30px;
+  box-shadow: 0px 20px 18px #131313;
+}

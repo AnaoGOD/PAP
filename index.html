@@ -4,6 +4,7 @@
     <title>EvoJogos</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\style.css" />
     <link rel="stylesheet" href="css\home.css" />
     <link rel="stylesheet" href="css\font.css" />
     <link rel="stylesheet" href="css\menu.css" />
@@ -36,11 +37,16 @@
         <div class="dot"><img src="imgs\ativo.png" /></div>
       </ul>
     </nav>
+
     <div class="separaMenu"></div>
-    <h1 style="margin-top: 100px">Bem-vindo ao site</h1>
-    <div class="separa"></div>
-    <h2 style="margin-bottom: 20px">
-      Vê alguns dos melhores jogos de cada decada
+
+    <h1 z-index: 0; class="animacao-texto animacao-1" style="margin-top: 18% ; font-size: 400%;">Bem-vindo ao EvoJogos</h1>
+    <h3 class="animacao-texto animacao-2" style="margin-top: 100px; margin-bottom: 20%">Aqui poderás ver os diferentes jogos digitais de cada decada - dos mais antigos aos mais recentes</h1>
+
+   
+      <div class="separa"></div>
+    <h2 style="margin-bottom: 50px">
+      Vê alguns dos melhores jogos
     </h2>
 
     <div class="linha">
@@ -53,26 +59,26 @@
           onmouseout="zindex2(this)"
         />
         <img
-          style="width: 100%; transform: translateY(-200px)"
+          style="width: 100%; transform: translateY(-150px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
         />
         <img
-          style="width: 100%; transform: translateY(-400px)"
+          style="width: 100%; transform: translateY(-300px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
         />
         <img
-          style="width: 100%; transform: translateY(-600px)"
+          style="width: 100%; transform: translateY(-450px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
         />
         <img
           id="img2"
-          style="width: 100%; transform: translateY(-800px)"
+          style="width: 100%; transform: translateY(-600px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
@@ -81,15 +87,14 @@
     </div>
     <div
       class="separa"
-      style="transform: translateY(50px); z-index: 999; height: 120px"
+      style="transform: translateY(50px); z-index: 999; height: 150px; margin-top:0;"
     ></div>
-    <div class="separa2"></div>
 
     <script>
       function zindex1(x) {
         x.style.boxShadow = "0px 0px 0px";
         x.style.margin = "0px auto";
-        x.style.marginBottom = "210px";
+        x.style.marginBottom = "160px";
         document.getElementById("img1").style.marginTop = "10px";
       }
 
