@@ -61,8 +61,8 @@ h2 {
 .separa {
   background: linear-gradient(
     180deg,
-    rgb(48, 55, 155) 0%,
-    rgba(16, 26, 48, 1) 4%
+    rgb(14, 13, 211) 0%,
+    rgba(16, 26, 48, 1) 6%
   );
   display: block;
   height: 100px;
@@ -73,8 +73,8 @@ h2 {
 .separa2 {
   background: linear-gradient(
     0deg,
-    rgb(48, 55, 155) 0%,
-    rgba(16, 26, 48, 1) 4%
+    rgb(14, 13, 211) 0%,
+    rgba(16, 26, 48, 1) 6%
   );
   display: block;
   height: 100px;
