@@ -9,12 +9,7 @@
     <link rel="stylesheet" href="css\font.css" />
     <link rel="stylesheet" href="css\menu.css" />
     <link rel="preload" href="css\VCROSDMono.ttf" as="font" type="font/ttf" />
-    <link
-      rel="preload"
-      href="css\Dosis-Regular.ttf"
-      as="font"
-      type="font/ttf"
-    />
+    <link rel="preload" href="css\Dosis-Regular.ttf" as="font" type="font/ttf" />
     <link rel="preload" href="css\Dosis-Bold.ttf" as="font" type="font/ttf" />
   </head>
 
@@ -38,7 +33,7 @@
       </ul>
     </nav>
 
-    <div class="separaMenu"></div>
+    <div class="separaMenu"><a href="index.html"><img src="imgs\logo2.png"/></a></div>
 
     <h1 z-index: 0; class="animacao-texto animacao-1" style="margin-top: 18% ; font-size: 400%;">Bem-vindo ao EvoJogos</h1>
     <h3 class="animacao-texto animacao-2" style="margin-top: 100px; margin-bottom: 20%">Aqui poderás ver os diferentes jogos digitais de cada decada - dos mais antigos aos mais recentes</h1>
@@ -51,38 +46,38 @@
 
     <div class="linha">
       <div class="coluna">
-        <img
+        <a href="1980.html"><img
           id="img1"
           style="width: 100%"
           src="imgs\pacman.jpg"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
-        />
-        <img
+        /></a>
+        <a href="1980.html"><img
           style="width: 100%; transform: translateY(-150px)"
           src="imgs\marioworld.png"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
-        />
-        <img
+        /></a>
+        <a href="2000.html"><img
           style="width: 100%; transform: translateY(-300px)"
-          src="imgs\marioworld.png"
+          src="imgs\halflife.jpg"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
-        />
-        <img
+        /></a>
+        <a href="2010.html"><img
           style="width: 100%; transform: translateY(-450px)"
-          src="imgs\marioworld.png"
+          src="imgs\zeldabotw.jpg"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
-        />
-        <img
+        /></a>
+        <a href="2020.html"><img
           id="img2"
           style="width: 100%; transform: translateY(-600px)"
-          src="imgs\marioworld.png"
+          src="imgs\gow.jpg"
           onmouseover="zindex1(this)"
           onmouseout="zindex2(this)"
-        />
+        /></a>
       </div>
     </div>
     <div
@@ -91,6 +86,7 @@
     ></div>
     
     <button onclick="topFunction()" id="BtTop">Voltar ao Topo</button>
+
     <script>
       function zindex1(x) {
         x.style.boxShadow = "0px 0px 0px";

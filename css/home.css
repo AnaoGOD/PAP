@@ -9,8 +9,14 @@
   display: inline;
   position: relative;
   transition: 0.5s ease-in-out;
-  box-shadow: 0px -10px 10px;
+  box-shadow: 0px -10px 10px black;
 }
+
+a:link,
+a:visited,
+a:hover,
+a:active{color:black}
+
 #img1 {
   margin-top: 10px;
 }
@@ -25,24 +31,26 @@
 }
 
 #BtTop {
+  font-family: "VCR OSD Mono";
+  font-size: 120%;
   width: 20%;
   display: block;
   position: relative;
   margin: 0 auto;
   margin-top: 20%;
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #fddb3a; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
+  border: none; 
+  outline: none;
+  background-color: #fddb3a; 
+  color: #101a30;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px;
   border: 2px solid #fddb3a ;
   transition: 0.5s;
 }
 
 #BtTop:hover {
+  color: white;
   border: 2px solid #fddb3a ;
   background-color:transparent; /* Add a dark-grey background on hover */
   transition: 0.5s;

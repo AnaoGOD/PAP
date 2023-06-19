@@ -45,6 +45,22 @@ h3 {
   border-top: 8px solid #101a30;
   border-radius: 5px;
 }
+
+.separaMenu img {
+  text-align: center;
+  position: absolute;
+  top:1%;
+  left: 2%;
+  width: 20%;
+  transition: 0.5s;
+}
+
+.separaMenu img:hover {
+  transform: scale(1.15);
+  transition: 0.5s;
+}
+
+
 .separa {
   background: linear-gradient(
     180deg,
