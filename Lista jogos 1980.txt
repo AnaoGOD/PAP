@@ -1,8 +1,24 @@
 Pacman (1980)
-Bomberman (1983)
+O Pac-Man é um dos jogos mais icónicos da história dos jogos digitais, lançado pela primeira vez em 1980 pela empresa japonesa Namco. No jogo, o jogador controla um personagem redondo e amarelo chamado Pac-Man, cujo objetivo é comer todos os pontos num labirinto enquanto evita ser capturado pelos fantasmas.
+
 Super Mario (1985)
+Super Mario, lançado originalmente em 1985 pela Nintendo, é um jogo de plataforma que se tornou um dos mais influentes e populares da história dos jogos digitais. O jogo apresenta o personagem principal, Mario, um canalizador italiano que se aventura num mundo cheio de obstáculos para resgatar a Princesa Peach das garras do vilão Bowser.
+
 Tetris (1985)
+Tetris é um jogo de quebra-cabeça criado pelo programador russo Alexey Pajitnov e lançado em 1984. Tal como outros nesta lista, o jogo tornou-se um dos mais populares e influentes da história dos jogos digitais, sendo lançado em diversas plataformas ao longo dos anos.
+No Tetris, os jogadores são desafiados a encaixar diferentes formas geométricas, chamadas de tetraminós, que são compostas por blocos individuais. Os tetraminós incluem peças em formato de L, T, I, quadrados, entre outros. Os blocos caem do topo da tela em um ritmo constante e o objetivo é girá-los e movê-los lateralmente para encaixá-los de forma a preencher linhas horizontais completas.
+
 Castlevania (1986)
+Castlevania foi criado pela empresa japonesa Konami em 1986. A franquia concentra-se em jogos de ação e aventura com temática de horror gótico, combinando elementos de plataforma, combate e exploração.
+
 The Legend of Zelda (1986)
+
+The Legend of Zelda é o primeiro jogo da renomada série de jogos digitais "The Legend of Zelda". Foi desenvolvido por Shigeru Miyamoto e Takashi Tezuka.
+
+No jogo, o jogador assume o papel do herói chamado Link, que é encarregado de resgatar a princesa Zelda e derrotar o vilão Ganon para salvar o reino de Hyrule. A jogabilidade ocorre em um vasto mundo aberto, onde o jogador pode explorar diversas áreas, como florestas, montanhas e cavernas.
+
 Street Fighter (1987)
+Street Fighter, lançado originalmente em 1987 pela Capcom, é um jogo de luta que deu início a uma das franquias mais populares e influentes da história dos jogos digitais. Desenvolvido por Takashi Nishiyama e Hiroshi Matsumoto, o jogo estabeleceu muitos dos elementos fundamentais encontrados nos jogos de luta modernos.
+
 Double Dragon (1987)
+Double Dragon, lançado em 1987 pela Technōs Japan, é um jogo de ação e luta que se tornou um dos títulos mais populares da era de ouro dos jogos digitais de arcade. Desenvolvido por Yoshihisa Kishimoto, o jogo foi um dos primeiros a introduzir o conceito de jogos de luta cooperativos.
