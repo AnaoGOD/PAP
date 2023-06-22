@@ -22,7 +22,9 @@ button {
   width: 20%;
   display: block;
   position: relative;
-  margin: 5% auto;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 7%;
   border: none;
   outline: none;
   background-color: #fddb3a;
