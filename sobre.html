@@ -45,16 +45,30 @@
       <h3
         style="margin-bottom: 10%; margin-top: 23%; font-family: VCR OSD Mono"
       >
-        Este website foi realizado pelos alunos Pedro Góis e Sérgio Magalhães do
-        12º ano do Curso Profissional de Técnico de Multimédia como projeto para
-        a Prova de Aptidão Profissional (PAP).
+        Este website foi realizado pelos alunos Pedro Gonçalo Góis e Sérgio
+        Magalhães do 12º ano do Curso Profissional de Técnico de Multimédia como
+        projeto para a Prova de Aptidão Profissional (PAP).
       </h3>
+    </div>
 
+    <div class="centro" style="width: 70%">
+      <div class="linha">
+        <div class="coluna">
+          <img style="width: 100%" src="imgs\sergio.png" />
+        </div>
+        <div class="coluna">
+          <img style="width: 100%" src="imgs\pedro.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="centro" style="width: 60%">
       <h3 style="margin-bottom: 10%; font-family: VCR OSD Mono">
         Escolhemos este tema pois os jogos digitais são um dos nossos
         passatempos favoritos e gostariamos de aprender mais sobre eles.
       </h3>
     </div>
+
     <div
       style="
         position: relative;
@@ -69,5 +83,25 @@
         src="imgs/logotipos.png"
       />
     </div>
+
+    <style>
+      .coluna img {
+        border: 5px solid #fddb3a;
+        border-radius: 20%;
+        vertical-align: middle;
+      }
+      .coluna {
+        margin: auto 2%;
+        margin-bottom: 10%;
+        width: 46%;
+        float: left;
+      }
+
+      .linha::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
   </body>
 </html>

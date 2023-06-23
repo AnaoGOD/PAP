@@ -19,7 +19,7 @@
 button {
   font-family: "VCR OSD Mono";
   font-size: 120%;
-  width: 20%;
+  width: 100%;
   display: block;
   position: relative;
   margin: 0 auto;
@@ -43,9 +43,15 @@ button:hover {
   transition: 0.5s;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
+.coluna a:link,
+.coluna a:visited,
+.coluna a:hover,
+.coluna a:active {
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  display: block;
+  position: relative;
+  width: 20%;
   text-decoration: none;
 }
