@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EvoJogos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css\home.css" />
+    <link rel="stylesheet" href="css\font.css" />
+    <link rel="stylesheet" href="css\menu.css" />
+    <link rel="preload" href="css\VCROSDMono.ttf" as="font" type="font/ttf" />
+    <link rel="preload" href="css\Dosis-Regular.ttf" as="font" type="font/ttf" />
+    <link rel="preload" href="css\Dosis-Bold.ttf" as="font" type="font/ttf" />
+  </head>
+
+  <body>
+    <nav id="top" style="z-index: 99;" class="navMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a style="cursor:default">Cronologia</a>
+          <ul class="dropdown">
+            <li><a href="1980.html">1980</a></li>
+            <li><a href="1990.html">1990</a></li>
+            <li><a href="2000.html">2000</a></li>
+            <li><a href="2010.html">2010</a></li>
+            <li><a href="2020.html">2020</a></li>
+            <div class="dot2"><img src="imgs\ativo.png" /></div>
+          </ul>
+        </li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <div style="position: inherit; z-index: 999;" class="dot"><img src="imgs\ativo.png" /></div>
+      </ul>
+    </nav>
+
+    <div class="separaMenu"></div>
+
+    <h1 class="animacao-texto animacao-1" style="margin-top: 10% ; font-size: 400%; z-index: -1;">Bem-vindo ao</h1>
+    <img class="centro animacao-texto animacao-1" style="width:60% ;" src="imgs\logo2.png"/>
+    <h3 class="animacao-texto animacao-2" style="margin-top: 10px; margin-bottom: 10%">Aqui poderás ver os diferentes jogos digitais de cada década - dos mais antigos aos mais recentes</h1>
+
+   
+      <div class="separa"></div>
+    <h2 style="margin-bottom: 50px">
+      Vê alguns dos melhores jogos
+    </h2>
+
+    <div class="linha">
+      <div class="coluna">
+        <a href="1980.html"><img
+          id="img1"
+          style="width: 100%"
+          src="imgs\pacman.jpg"
+          onmouseover="zindex1(this)"
+          onmouseout="zindex2(this)"
+        /></a>
+        <a href="1980.html"><img
+          style="width: 100%; transform: translateY(-150px)"
+          src="imgs\marioworld.png"
+          onmouseover="zindex1(this)"
+          onmouseout="zindex2(this)"
+        /></a>
+        <a href="2000.html"><img
+          style="width: 100%; transform: translateY(-300px)"
+          src="imgs\halflife.jpg"
+          onmouseover="zindex1(this)"
+          onmouseout="zindex2(this)"
+        /></a>
+        <a href="2010.html"><img
+          style="width: 100%; transform: translateY(-450px)"
+          src="imgs\zeldabotw.jpg"
+          onmouseover="zindex1(this)"
+          onmouseout="zindex2(this)"
+        /></a>
+        <a href="2020.html"><img
+          id="img2"
+          style="width: 100%; transform: translateY(-600px)"
+          src="imgs\gow.jpg"
+          onmouseover="zindex1(this)"
+          onmouseout="zindex2(this)"
+        /></a>
+      </div>
+    </div>
+    <div
+      class="separa"
+      style="transform: translateY(50px); height: 150px; margin-top:0;"
+    ></div>
+    
+    <button onclick="topFunction()" id="BtTop">Voltar ao Topo</button>
+
+    <script>
+      function zindex1(x) {
+        x.style.boxShadow = "0px 0px 0px";
+        x.style.margin = "0px auto";
+        x.style.marginBottom = "160px";
+        document.getElementById("img1").style.marginTop = "10px";
+      }
+
+      function zindex2(x) {
+        x.style.boxShadow = "0px -10px 10px";
+        x.style.width = "100%";
+        x.style.position = "relative";
+        x.style.margin = "0 auto";
+        document.getElementById("img1").style.marginTop = "10px";
+        document.getElementById("img2").style.marginBottom = "10px";
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0; 
+      }
+    </script>
+  </body>
+</html>
